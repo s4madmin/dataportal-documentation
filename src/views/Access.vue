@@ -23,8 +23,8 @@
                 <br>    
 
                 <p style="font-weight: 100;">
-                Access to the dataportal is managed by internal sys admins. 
-                Please email <a href = "mailto: admin@stemformatics.com">admin@stemformatics.coml</a> to request access.
+                Access to the dataportal is managed by internal sys-admins. 
+                Please email <a href = "mailto: admin@stemformatics.com">admin@stemformatics.com</a> to request access.
                 </p>
           
 
