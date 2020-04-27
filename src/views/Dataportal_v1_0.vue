@@ -83,6 +83,11 @@
                                                         Atlas data integration: Now you can use a dedicated Atlas page to browse/search for atlas data. You can filter by Blood/iMAC for all datasets or you can search by samples. 
                                                         </p>
                                                     </li>
+                                                    <li>
+                                                        <p style="font-weight: 100;">
+                                                        Admin console: Users can now be added/removed from an admin panel interface, instead of directly from the database. The admin panel is only available to users with admin access, not annotator access. 
+                                                        </p>
+                                                    </li>
                                                 </ul>
                                             </v-list-item-content>
                                        

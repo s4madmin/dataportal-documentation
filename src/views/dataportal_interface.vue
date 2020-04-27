@@ -6,10 +6,10 @@
             <v-col cols="12" md="8">
 
                 <v-banner>
-                    <img src="https://img.icons8.com/flat_round/90/000000/lock--v1.png"/>
+                    DP_inerface
                 </v-banner>
 
-                <br>
+                <!-- <br>
                 <br>
 
                 <v-img
@@ -27,7 +27,7 @@
                 </p>
                 <p style="font-weight: 100;">
                 Please email <a href = "mailto: admin@stemformatics.com">admin@stemformatics.com</a> to request access.
-                </p>
+                </p> -->
           
 
             </v-col>
