@@ -22,10 +22,10 @@
                 <br>
                 <br>    
 
-                <p style="font-weight: 100;">
+                <p style="color: grey; font-weight: 100;">
                 Access to the dataportal is managed by internal sys-admins. 
                 </p>
-                <p style="font-weight: 100;">
+                <p style="color: grey; font-weight: 100;">
                 Please email <a href = "mailto: admin@stemformatics.com">admin@stemformatics.com</a> to request access.
                 </p>
           

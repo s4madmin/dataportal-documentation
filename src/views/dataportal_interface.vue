@@ -1,38 +1,84 @@
 <template>
     <v-container>
         <v-row>
-            <v-col cols="12" md="2">
+            <v-col cols="12" md="3">
             </v-col>
-            <v-col cols="12" md="8">
+            <v-col cols="12" md="6">
 
-                <v-banner>
-                    DP_inerface
-                </v-banner>
-
-                <!-- <br>
                 <br>
-
                 <v-img
                 contain
-                src="https://dataportal-data.s3-ap-southeast-2.amazonaws.com/static/images/access.PNG"
+                src="https://dataportal-data.s3-ap-southeast-2.amazonaws.com/static/images/ui_home.JPG"
       
-                max-width="550"
+                max-width="750"
                 ></v-img>
                 
                 <br>
                 <br>    
 
-                <p style="font-weight: 100;">
-                Access to the dataportal is managed by internal sys-admins. 
+                <p style="color: #6A76AB; font-weight: 500;">
+                    The dataportal interface handles internal operations for annotating and uploading data. 
                 </p>
-                <p style="font-weight: 100;">
-                Please email <a href = "mailto: admin@stemformatics.com">admin@stemformatics.com</a> to request access.
-                </p> -->
-          
+                 <p style="color: grey; font-weight: 100;">
+                     A governance page also displays all recent interactions with the data contained in the portal since its inception.
+                     There is distinction between all datasets contained in the portal and 'atlas only' data, see the above image.
+                </p>
+                <br>    
+                <hr>
+
+                <br>
+                <br>    
+
+                <p style="color: #6A76AB; font-weight: 500;">
+                    Annotation.
+                </p>
+                <br>
+                <v-img
+                contain
+                src="https://dataportal-data.s3-ap-southeast-2.amazonaws.com/static/images/datasets_page.JPG"
+      
+                max-width="750"
+                ></v-img>
+                
+                <br>
+                <br>  
+                
+                 <p style="color: grey; font-weight: 100;">
+                    You can search all datasets on the annotation page. 
+                    Currently, you can search on fields "ID, Date, Title, Authors, Description, Pubmed". 
+                </p>
+                <br>    
+                <hr>
+
+
+                <br>
+                <br>    
+
+                <p style="color: #6A76AB; font-weight: 500;">
+                    Atlas Data Search.
+                </p>
+                <br>
+                <v-img
+                contain
+                src="https://dataportal-data.s3-ap-southeast-2.amazonaws.com/static/images/atlas_Search.JPG"
+      
+                max-width="750"
+                ></v-img>
+                
+                <br>
+                <br>  
+                
+                 <p style="color: grey; font-weight: 100;">
+                    You can search by dataset or sample. 
+                    When you open a dataset, there is functionality to filter by 'tier1, tier2, tier3.'
+                </p>
+                <br>    
+                <hr>
+
 
             </v-col>
 
-            <v-col cols="12" md="2">
+            <v-col cols="12" md="3">
             </v-col>
         </v-row>
     </v-container>

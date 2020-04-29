@@ -103,6 +103,7 @@ import GoTop from '@inotom/vue-go-top';
           children: [
             { id: 7, name: 'Cloud', to: '/cloud' },
             { id: 8, name: 'Docker', to: '/docker' },
+            { id: 12, name: 'CI/CD', to: '/cicd' },
           ],
         },
         {
@@ -113,13 +114,7 @@ import GoTop from '@inotom/vue-go-top';
             { id: 10, name: 'Dataportal Interface', to: '/dataportal_interface' },
           ],
         },
-        {
-          id: 11,
-          name: 'Testing',
-          children: [
-            { id: 12, name: 'CI/CD', to: '/cicd' },
-          ],
-        },
+        
        
       ],
     }),

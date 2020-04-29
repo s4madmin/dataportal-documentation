@@ -60,31 +60,31 @@
                                             <v-list-item-content>
                                                 <ul>
                                                     <li>
-                                                        <p style="font-weight: 100;">
+                                                        <p style="color: grey; font-weight: 100;">
                                                         API Documentation: I've added a swagger UI Documentation plugin to the flask api application.
                                                         Now you will be able to document and expose any endpoints in the application using the @api_app.doc decorators. 
                                                         </p>
                                                     </li>
                                                     <li>
-                                                        <p style="font-weight: 100;">
+                                                        <p style="color: grey; font-weight: 100;">
                                                         Dataset upload page: Now you can add a dataset yourself using the dataset upload page. There is a required 'annotator'
                                                         field and dataset field. The annotator field records user interaction with the dataportal. The dataset field allows input of 
                                                         metadata and a samples.txt file. There is a format guide for naming conventions required when uploading samples.txt files. 
                                                         </p>
                                                     </li>
                                                     <li>
-                                                        <p style="font-weight: 100;">
+                                                        <p style="color: grey; font-weight: 100;">
                                                         Governance: I've added a governance feature to record user interaction with the API. Currently it only records data relating to dataset upload,
                                                         user, role date and notes. There is scope to extend this functionality in the future. Data can be found in the dataportal_prod_governance table in mongodb.
                                                         </p>
                                                     </li>
                                                     <li>
-                                                        <p style="font-weight: 100;">
+                                                        <p style="color: grey; font-weight: 100;">
                                                         Atlas data integration: Now you can use a dedicated Atlas page to browse/search for atlas data. You can filter by Blood/iMAC for all datasets or you can search by samples. 
                                                         </p>
                                                     </li>
                                                     <li>
-                                                        <p style="font-weight: 100;">
+                                                        <p style="color: grey; font-weight: 100;">
                                                         Admin console: Users can now be added/removed from an admin panel interface, instead of directly from the database. The admin panel is only available to users with admin access, not annotator access. 
                                                         </p>
                                                     </li>

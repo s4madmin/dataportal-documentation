@@ -28,7 +28,7 @@
                 <h3 style="color: #6A76AB; font-weight: 500;">Dockerfile:</h3>
                 <br>
                 <br>  
-                <p>
+                <p style="color: grey; font-weight: 100;">
                     The dockerfile contains the instructions for how to build the container. 
                     You can specify the base image you want to use as well as things like dependencies and repositories. 
                     Use the `docker build ` command to start the build process. For example:
@@ -40,7 +40,7 @@
                 </code>
                 <br>
                 <br>
-                <p>
+                <p style="color: grey; font-weight: 100;">
                     You can tag your image with the `-t` flag. Tags are important when pushing your image to a remote repo. 
                     After your build completes, you should see output similar to the following:
                 </p>
@@ -52,7 +52,7 @@
                 ></v-img>
                 <br>
                 <br>
-                <p>
+                <p style="color: grey; font-weight: 100;">
                     You can see your newly created image (container) as well as the base image from which it was created (docker.io etc.).
                 </p>
                 <br>
@@ -60,7 +60,7 @@
                 <h3 style="color: #6A76AB; font-weight: 500;">Building for production:</h3>
                 <br>
                 <br> 
-                <p>
+                <p style="color: grey; font-weight: 100;">
                     If you want to build a production/devlopment clone of the dataportal:
                 </p>
                 <ul>
@@ -71,7 +71,7 @@
                     <li style="color: grey; font-weight: 100;">execute 'docker-compose up' command</li>
                 </ul>
                 <br>
-                <p>
+                <p style="color: grey; font-weight: 100;">
                     If you would prefer, you can load your .env file into the flask container after the build completes using the 'load_vars.sh' or your own custom script.
                     You can also just execute 'export VAR=VALUE' from within the terminal, though this will be tedious as the application requires a lot of environment variables to be configured. 
                 </p>
@@ -80,7 +80,7 @@
                 <h3 style="color: #6A76AB; font-weight: 500;">Useful commands:</h3>
                 <br>
                 <br> 
-                <p>
+                <p style="color: grey; font-weight: 100;">
                    Stop/remove containers:
                 </p>
                 <code class="code">
@@ -93,7 +93,7 @@
                 </code>
                 <br>
                 <br>
-                <p>
+                <p style="color: grey; font-weight: 100;">
                     Logging into a running container, where (flask,mongo,postgres,nginx is the {container_name}):
                 </p>
                 <code class="code">
@@ -101,7 +101,7 @@
                 </code>
                 <br>
                 <br>
-                <p>
+                <p style="color: grey; font-weight: 100;">
                     To login to a running container as root or other user:
                 </p>
                 <code class="code">
@@ -109,7 +109,7 @@
                 </code>
                 <br>
                 <br>
-                <p>
+                <p style="color: grey; font-weight: 100;">
                     If you want to copy files from inside a container to the outside host using the container ID:
                 </p>
                 <code class="code">
